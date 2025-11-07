@@ -1,0 +1,20 @@
+* X shunt
+
+D4
+D13
+D14
+
+
+
+
+
+* MOTER
+
+Left
+C1-D2
+C2-D23
+
+
+Right 
+C1-D18
+C2-D19

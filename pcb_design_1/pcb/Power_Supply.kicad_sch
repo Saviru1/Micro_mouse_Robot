@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 95.25 81.28) (xy 107.95 81.28)
+			(xy 182.88 86.36) (xy 195.58 86.36)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 85.09) (xy 107.95 85.09)
+			(xy 182.88 90.17) (xy 195.58 90.17)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 82.55) (xy 173.99 82.55)
+			(xy 128.27 86.36) (xy 140.97 86.36)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 85.09) (xy 173.99 85.09)
+			(xy 128.27 88.9) (xy 140.97 88.9)
 		)
 		(stroke
 			(width 0)
@@ -46,7 +46,7 @@
 		(uuid "e290ff3f-4a17-446f-9d9b-5cc77a5ae7df")
 	)
 	(label "5V"
-		(at 107.95 85.09 0)
+		(at 195.58 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape output)
-		(at 107.95 81.28 0)
+		(at 195.58 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,9 +66,9 @@
 		)
 		(uuid "1ce4dde9-92e0-4b2a-920c-7cc35cdfcbfc")
 	)
-	(hierarchical_label "Bat_in"
+	(hierarchical_label "Bat_in_1"
 		(shape input)
-		(at 173.99 85.09 0)
+		(at 140.97 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -79,7 +79,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape output)
-		(at 173.99 82.55 0)
+		(at 140.97 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -89,7 +89,7 @@
 		(uuid "e7e77ebb-77c5-44ca-8e60-8854ba0a0d89")
 	)
 	(sheet
-		(at 135.89 73.66)
+		(at 102.87 77.47)
 		(size 25.4 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -105,7 +105,7 @@
 		)
 		(uuid "7cc5f3ef-8e49-4dd0-a550-6940ca4c0f81")
 		(property "Sheetname" "5V_in"
-			(at 135.89 72.9484 0)
+			(at 102.87 76.7584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -116,7 +116,7 @@
 			)
 		)
 		(property "Sheetfile" "5v_in.kicad_sch"
-			(at 135.89 102.1846 0)
+			(at 102.87 105.9946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -127,7 +127,7 @@
 			)
 		)
 		(pin "5V" output
-			(at 161.29 82.55 0)
+			(at 128.27 86.36 0)
 			(uuid "1f9f208e-eef0-44af-99e4-df353f5d09b3")
 			(effects
 				(font
@@ -136,9 +136,9 @@
 				(justify right)
 			)
 		)
-		(pin "battery_in" input
-			(at 161.29 85.09 0)
-			(uuid "1a4d1c8c-7e13-4c95-bba4-f9c34b1d15f9")
+		(pin "battery_in_1" input
+			(at 128.27 88.9 0)
+			(uuid "7b9c8097-1dde-419d-8b5a-34aa1d092fa3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,7 +155,7 @@
 		)
 	)
 	(sheet
-		(at 67.31 73.66)
+		(at 154.94 78.74)
 		(size 27.94 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -171,7 +171,7 @@
 		)
 		(uuid "d35a36a5-85af-4c52-830c-f0d102ecc7fe")
 		(property "Sheetname" "3.3_voltage"
-			(at 67.31 72.9484 0)
+			(at 154.94 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -182,7 +182,7 @@
 			)
 		)
 		(property "Sheetfile" "3.3_voltage.kicad_sch"
-			(at 67.31 99.6446 0)
+			(at 154.94 104.7246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -193,7 +193,7 @@
 			)
 		)
 		(pin "3.3Vin" output
-			(at 95.25 81.28 0)
+			(at 182.88 86.36 0)
 			(uuid "1dd84a3e-068b-4dfa-8f65-ffce983cb542")
 			(effects
 				(font
@@ -203,7 +203,7 @@
 			)
 		)
 		(pin "5V_in" input
-			(at 95.25 85.09 0)
+			(at 182.88 90.17 0)
 			(uuid "cb837f05-d466-434e-9e13-225e58c370db")
 			(effects
 				(font

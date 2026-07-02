@@ -546,7 +546,7 @@
 		)
 		(uuid "bc883cad-531e-4b3f-9f95-d0e50d1c8062")
 	)
-	(hierarchical_label "battery_in"
+	(hierarchical_label "battery_in_1"
 		(shape input)
 		(at 115.57 73.66 180)
 		(effects

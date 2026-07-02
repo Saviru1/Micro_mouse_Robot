@@ -1777,6 +1777,52 @@
 		)
 	)
 	(sheet
+		(at 219.71 102.87)
+		(size 34.29 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b1c017bd-df2f-419d-bc27-96bf67136011")
+		(property "Sheetname" "Sensors_TOF"
+			(at 219.71 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors_TOF.kicad_sch"
+			(at 219.71 131.3946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/641f7b51-eb90-47ac-8b04-a4718aaaca74"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 77.47 107.95)
 		(size 25.4 24.13)
 		(exclude_from_sim no)

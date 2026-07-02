@@ -420,7 +420,7 @@
         "uuid": "641f7b51-eb90-47ac-8b04-a4718aaaca74"
       }
     ],
-    "used_designators": "SW1-5,LS1,D1,#PWR19-26,R4-7",
+    "used_designators": "R8-9,J7,J9,J11-13",
     "variants": []
   },
   "sheets": [
@@ -451,6 +451,10 @@
     [
       "1a9fd12a-cdb0-4b48-a2c2-8f8cf2ba0df2",
       "ESP32"
+    ],
+    [
+      "b1c017bd-df2f-419d-bc27-96bf67136011",
+      "Sensors_TOF"
     ]
   ],
   "text_variables": {},

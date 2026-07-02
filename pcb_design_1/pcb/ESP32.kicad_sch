@@ -1919,6 +1919,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 105.41) (xy 165.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bdebf4-97ee-44b8-81bb-7aeebe16ff63")
+	)
+	(wire
+		(pts
 			(xy 177.8 24.13) (xy 185.42 24.13)
 		)
 		(stroke
@@ -14089,6 +14099,16 @@
 		)
 		(uuid "627e7f3a-78ad-47ec-9b96-60746c07be5e")
 	)
+	(label "SDA"
+		(at 105.41 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83072893-6b9c-4ac6-b287-6ef9935dde12")
+	)
 	(label "RXDO"
 		(at 258.572 74.93 180)
 		(effects
@@ -14098,6 +14118,16 @@
 			(justify right bottom)
 		)
 		(uuid "8667c3cd-80b4-41ac-a69f-c4b248245b4a")
+	)
+	(label "SCL"
+		(at 105.41 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d54c4b0-6419-4223-b924-fa4200a384ab")
 	)
 	(label "CAN_TXD"
 		(at 149.86 72.39 0)
@@ -14139,16 +14169,16 @@
 		)
 		(uuid "ebb4f761-4121-4350-bef4-b1c44c086443")
 	)
-	(hierarchical_label "SDO"
+	(hierarchical_label "TCA9548A_RST"
 		(shape input)
-		(at 105.41 92.71 180)
+		(at 165.1 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "6e57325c-155d-415c-9de1-71dc789947ad")
+		(uuid "0fa18d83-af28-490f-aade-0c311d023f8c")
 	)
 	(hierarchical_label "INT"
 		(shape input)
@@ -14171,17 +14201,6 @@
 			(justify left)
 		)
 		(uuid "9265fb66-4772-4c3b-8609-ab739b503947")
-	)
-	(hierarchical_label "CLK"
-		(shape input)
-		(at 105.41 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c19ded69-5f1a-4c94-97d2-a734332701bf")
 	)
 	(hierarchical_label "SCL"
 		(shape input)

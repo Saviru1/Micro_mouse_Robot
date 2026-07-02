@@ -1,0 +1,223 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "73016bfe-8ee4-4b23-9dcf-ba4e7d88efd3")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 95.25 81.28) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52f5a14-f160-48f1-b57a-c09c693bce56")
+	)
+	(wire
+		(pts
+			(xy 95.25 85.09) (xy 107.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b9fb4b-cdb0-412e-bf4b-05729400fbca")
+	)
+	(wire
+		(pts
+			(xy 161.29 82.55) (xy 173.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f277de-0e8f-493b-823c-3ba9c63d4596")
+	)
+	(wire
+		(pts
+			(xy 161.29 85.09) (xy 173.99 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e290ff3f-4a17-446f-9d9b-5cc77a5ae7df")
+	)
+	(label "5V"
+		(at 107.95 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d80422f-4057-44bb-b9ce-fb660ac0dbff")
+	)
+	(hierarchical_label "3.3V"
+		(shape output)
+		(at 107.95 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ce4dde9-92e0-4b2a-920c-7cc35cdfcbfc")
+	)
+	(hierarchical_label "Bat_in"
+		(shape input)
+		(at 173.99 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "307daf99-f92c-44d7-8896-b7a5df4bc862")
+	)
+	(hierarchical_label "5V"
+		(shape output)
+		(at 173.99 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7e77ebb-77c5-44ca-8e60-8854ba0a0d89")
+	)
+	(sheet
+		(at 135.89 73.66)
+		(size 25.4 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7cc5f3ef-8e49-4dd0-a550-6940ca4c0f81")
+		(property "Sheetname" "5V_in"
+			(at 135.89 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5v_in.kicad_sch"
+			(at 135.89 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" output
+			(at 161.29 82.55 0)
+			(uuid "1f9f208e-eef0-44af-99e4-df353f5d09b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "battery_in" input
+			(at 161.29 85.09 0)
+			(uuid "1a4d1c8c-7e13-4c95-bba4-f9c34b1d15f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/641f7b51-eb90-47ac-8b04-a4718aaaca74/f01c0948-8e12-4c87-8fc3-f394c7f885a8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 73.66)
+		(size 27.94 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d35a36a5-85af-4c52-830c-f0d102ecc7fe")
+		(property "Sheetname" "3.3_voltage"
+			(at 67.31 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3.3_voltage.kicad_sch"
+			(at 67.31 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3Vin" output
+			(at 95.25 81.28 0)
+			(uuid "1dd84a3e-068b-4dfa-8f65-ffce983cb542")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_in" input
+			(at 95.25 85.09 0)
+			(uuid "cb837f05-d466-434e-9e13-225e58c370db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/641f7b51-eb90-47ac-8b04-a4718aaaca74/f01c0948-8e12-4c87-8fc3-f394c7f885a8"
+					(page "4")
+				)
+			)
+		)
+	)
+)

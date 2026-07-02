@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "2a6e72c6-688f-4e9f-ad6b-d20ad104301f")
+	(uuid "0ec173df-75c0-408d-bd4b-d09ad3b7a533")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Socket"
@@ -946,16 +946,6 @@
 			"/wbz8WDQ5fWiPQAAAABJRU5ErkJggg=="
 		)
 	)
-	(label "SCL"
-		(at 116.84 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bbb3ae8-ce50-4d01-82d2-90e7223bb37d")
-	)
 	(label "VCC"
 		(at 200.66 78.74 0)
 		(effects
@@ -965,16 +955,6 @@
 			(justify left bottom)
 		)
 		(uuid "1ba86ed8-c95e-452a-8a44-5e5c1130dec0")
-	)
-	(label "SDA"
-		(at 116.84 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "30a7d8b7-bb66-4f8c-ba6a-5b22fe4e32dd")
 	)
 	(label "VCC"
 		(at 116.84 80.01 0)
@@ -986,16 +966,6 @@
 		)
 		(uuid "33809ba1-be19-4017-8766-9e30e420df3c")
 	)
-	(label "SCL"
-		(at 160.02 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "529f3a49-02ef-4106-be6b-cade2ecf0f94")
-	)
 	(label "GND"
 		(at 251.46 81.28 0)
 		(effects
@@ -1006,16 +976,6 @@
 		)
 		(uuid "5f5612ce-26a1-4f12-925e-31d007f60117")
 	)
-	(label "SDA"
-		(at 160.02 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6432059c-8f78-448e-a7df-2e3435f8694b")
-	)
 	(label "GND"
 		(at 160.02 81.28 0)
 		(effects
@@ -1025,16 +985,6 @@
 			(justify left bottom)
 		)
 		(uuid "656b3692-d9f8-40ee-b5e6-28571b3ed1d5")
-	)
-	(label "SDA"
-		(at 251.46 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7588bb45-766e-48e5-9d65-ad5ddacd088a")
 	)
 	(label "GND"
 		(at 116.84 82.55 0)
@@ -1056,26 +1006,6 @@
 		)
 		(uuid "9e379b2e-f960-4ec7-9021-847a356bd43d")
 	)
-	(label "SDA"
-		(at 200.66 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2051ef0-d684-4163-9cff-b6e80f57e09c")
-	)
-	(label "SCL"
-		(at 251.46 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a35e7a6d-e16b-41cb-8702-f9fdb0967283")
-	)
 	(label "VCC"
 		(at 251.46 78.74 0)
 		(effects
@@ -1096,15 +1026,16 @@
 		)
 		(uuid "a5d7622b-aa56-427a-bc36-e34bcfec7c50")
 	)
-	(label "SCL"
-		(at 200.66 83.82 0)
+	(hierarchical_label "SCL_5"
+		(shape input)
+		(at 251.46 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "d363cdf8-662d-4bc1-8077-97cdc3456619")
+		(uuid "09239d0b-42ab-4bfc-9be2-250012e85ab6")
 	)
 	(hierarchical_label "GPIO_1"
 		(shape input)
@@ -1117,7 +1048,7 @@
 		)
 		(uuid "0e67f307-948f-4626-abd1-1c7fe17faccf")
 	)
-	(hierarchical_label "SDA"
+	(hierarchical_label "SDA_1"
 		(shape input)
 		(at 69.85 87.63 0)
 		(effects
@@ -1127,6 +1058,17 @@
 			(justify left)
 		)
 		(uuid "13793ab5-1aec-4df9-9153-77aaf17c96c8")
+	)
+	(hierarchical_label "SDA_2"
+		(shape input)
+		(at 116.84 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22dfb5ca-fd77-4101-b440-d56256b101ce")
 	)
 	(hierarchical_label "GPIO_4"
 		(shape input)
@@ -1149,6 +1091,17 @@
 			(justify left)
 		)
 		(uuid "336a909c-6172-407c-9828-88a4abde0faa")
+	)
+	(hierarchical_label "SDA_4"
+		(shape input)
+		(at 200.66 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "339e366a-1804-4d60-8b41-6dd933655827")
 	)
 	(hierarchical_label "Xshunt_3"
 		(shape input)
@@ -1183,6 +1136,17 @@
 		)
 		(uuid "5b8a39f2-7365-4ebc-9064-2f2a9a1968b5")
 	)
+	(hierarchical_label "SCL_3"
+		(shape input)
+		(at 160.02 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cfa38cf-dfd8-4298-881a-c2289ecfc8f5")
+	)
 	(hierarchical_label "Xshunt_1"
 		(shape input)
 		(at 69.85 92.71 0)
@@ -1205,6 +1169,17 @@
 		)
 		(uuid "7c17fdaf-26b6-4c65-bcc8-89480c89a4f5")
 	)
+	(hierarchical_label "SCL_4"
+		(shape input)
+		(at 200.66 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99e7b133-27e9-4691-ba05-5059fa977bd7")
+	)
 	(hierarchical_label "GPIO_5"
 		(shape input)
 		(at 251.46 88.9 0)
@@ -1216,7 +1191,7 @@
 		)
 		(uuid "a587edb5-11c4-4152-881e-f00f849dbefb")
 	)
-	(hierarchical_label "SCL"
+	(hierarchical_label "SCL_1"
 		(shape input)
 		(at 69.85 85.09 0)
 		(effects
@@ -1237,6 +1212,28 @@
 			(justify left)
 		)
 		(uuid "d04851b9-f5b4-4b67-ae67-f81cf692c26d")
+	)
+	(hierarchical_label "SDA_3"
+		(shape input)
+		(at 160.02 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7583217-dff5-46e5-bd55-0804c02fd509")
+	)
+	(hierarchical_label "SCL_2"
+		(shape input)
+		(at 116.84 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d78805c4-673e-4cf2-8c3b-1b0fe47180f2")
 	)
 	(hierarchical_label "GPIO_2"
 		(shape input)
@@ -1259,6 +1256,17 @@
 			(justify left)
 		)
 		(uuid "eba1b047-c5eb-4536-97b6-7b915fab39b8")
+	)
+	(hierarchical_label "SDA_5"
+		(shape input)
+		(at 251.46 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2067710-8e0b-49b4-b2ac-3ffb1368935f")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")

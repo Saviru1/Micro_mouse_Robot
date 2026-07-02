@@ -420,7 +420,7 @@
         "uuid": "641f7b51-eb90-47ac-8b04-a4718aaaca74"
       }
     ],
-    "used_designators": "R8-9,J7,J9,J11-14,SW1",
+    "used_designators": "R8-12,J7,J9,J11-16,SW1,SW6-9,D2,#PWR20,#PWR27-34,LS2",
     "variants": []
   },
   "sheets": [
@@ -459,6 +459,22 @@
     [
       "170bd367-671e-47a1-a124-6effc20b5547",
       "OLED_Display"
+    ],
+    [
+      "03c148a4-726e-4841-b306-10da58d6bace",
+      "TCA9548A"
+    ],
+    [
+      "ed4d8b9a-7680-4235-af73-469ece15d63e",
+      "Switches"
+    ],
+    [
+      "f9924167-9f17-46ca-b0ba-6db2b1c80c44",
+      "Speker"
+    ],
+    [
+      "2ab37ca4-2d5e-453f-8f74-e716f79008cb",
+      "indication_circuit"
     ]
   ],
   "text_variables": {},

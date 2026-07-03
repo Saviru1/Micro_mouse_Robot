@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "639d5906-c165-4cef-abb0-ac4e0f64ad31")
+	(uuid "b829047b-3975-4ae6-b324-91a3db1ace94")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Switch:SW_Push"

@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "c1ac04c6-edc0-48ba-abec-660c7258bbf2")
+	(uuid "b584aa9a-a5df-4b75-b248-f3aa5de53b02")
 	(paper "A4")
 	(lib_symbols
 		(symbol "KPEG242-5V:KPEG242-5V"
